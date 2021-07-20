@@ -3,6 +3,7 @@
     <string name="name">Name</string>
     <string name="desc">Description</string>
     <string name="genus">Genus</string>
-    <string name="order">Order</string>
-    <string name="family">Family</string>
+    <string name="order">Ordo</string>
+    <string name="family">Famili</string>
+    <string name="colon">:</string>
 </resources>
