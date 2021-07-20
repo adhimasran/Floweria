@@ -6,4 +6,6 @@
     <string name="order">Ordo</string>
     <string name="family">Famili</string>
     <string name="colon">:</string>
+    <string name="profile_name">John Doe</string>
+    <string name="email">john.doe@mail.com</string>
 </resources>
