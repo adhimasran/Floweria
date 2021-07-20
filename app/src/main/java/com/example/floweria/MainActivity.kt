@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecyclerCardView() {
         rvFlowers.layoutManager = LinearLayoutManager(this)
-        val cardViewFlower = CardViewFlower(list)
+        val cardViewFlower = CardViewFlower(list, this)
         rvFlowers.adapter = cardViewFlower
     }
 }
