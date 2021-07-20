@@ -26,7 +26,7 @@ class CardViewFlower(private val listFlower: ArrayList<Flower>): RecyclerView.Ad
 
         Glide.with(holder.itemView.context)
             .load(flower.photo)
-            .load(RequestOptions().override(350, 350))
+            .apply(RequestOptions().override(350, 350))
             .into(holder.imgPhoto)
 
         holder.name.text = flower.name
