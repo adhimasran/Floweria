@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Floweria</string>
+    <string name="name">Name</string>
+    <string name="desc">Description</string>
+    <string name="genus">Genus</string>
+    <string name="order">Order</string>
+    <string name="family">Family</string>
 </resources>
