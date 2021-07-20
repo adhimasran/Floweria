@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.app.ActionBar
 
 class ViewDetail : AppCompatActivity() {
     companion object {
@@ -40,5 +41,11 @@ class ViewDetail : AppCompatActivity() {
         tvGenus.text = genus
         tvOrder.text = order
         tvFamily.text = family
+
+        val actionBar : ActionBar? = supportActionBar
+        actionBar!!.setDisplayHomeAsUpEnabled(true)
+        actionBar.setDisplayShowHomeEnabled(true)
+
+        actionBar.title = name
     }
 }
