@@ -10,18 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Floweria">
         <activity
-            android:name=".ViewProfile"
-            android:parentActivityName=".MainActivity"/>
-        <activity
-            android:name=".ViewDetail"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity">
+            android:name=".SplashImage"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ViewProfile"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ViewDetail"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
